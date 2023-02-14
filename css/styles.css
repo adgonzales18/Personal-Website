@@ -1,0 +1,104 @@
+
+
+body {
+    text-align: center;
+    color: white;
+}
+/* introduction */
+
+.container-fluid {
+    background-color: black;
+    padding-bottom: 9%;
+}
+
+.intro-container {
+    padding: 7% 12%;
+}
+
+.navbar-container {
+    font-family: 'Merriweather', serif;
+    padding: 0;
+}
+
+.brand-logo {
+    width: 25%;
+}
+
+.brand-name {
+    width: 40%;
+    font-size: 2rem;
+}
+
+.nav-options {
+    padding-left: auto;
+}
+
+.intro-content {
+    font-family:'Montserrat', sans-serif; 
+}
+.intro-description {
+    padding-left: 0;
+    text-align: left;
+}
+
+.font-bold {
+    font-family:'Montserrat-Bold', sans-serif;
+    font-size: 2.7rem;
+}
+.profile-img {
+    width: 60%;
+}
+
+.intro-msg {
+    padding: 5% 0 3%;
+    font-size: 1.2rem;
+}
+
+.btn-icon {
+    padding: 2px 4px;
+}
+
+/* Technology Stack */
+#technology-stack {
+
+    font-family:'Montserrat', sans-serif; 
+    background-color: white;
+    color: black;
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.stack-icon {
+    padding: 3% 10%;
+}
+
+.icon-description {
+    margin-top: 10px;
+}
+
+/* Contact Me */
+
+#contact-me {
+    background-color: black;
+    padding: 7% 12%;
+}
+
+.email-me {
+    text-align: left;
+    padding: 2% 12%;
+}
+
+.send-button {
+    margin-top: 10px;
+}
+
+/* Footer Section */
+
+#footer {
+   
+    background-color: black;
+    padding: 15px 30px;
+
+}
+
