@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+    /* Center header contents */
+    #header .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* Adjust spacing for smaller screens */
+    #header .name {
+        margin-top: 10px;
+    }
+    /* Center profile image */
+    .about-me .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .technology-logos-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tech-logos {
+        text-align: center;
+        margin-bottom: 20px; /* Optional: Adjust spacing between icons */
+    }
+}
+
+body {
+    display: inline-flexbox;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+#header {
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif; 
+}
+#technology-stack {
+    padding-top: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    height: 100vh;
+}
+
+#technology-stack h1{
+    display: inline-block;
+}
+
+#portfolio{
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+#contact-me {
+    background-color: whitesmoke;
+}
+
+.full-stack {
+    font-family:'Montserrat-Bold', sans-serif;
+}
+.nav-link {
+    color: black;
+}
+.name {
+    color: black;
+}
+.grad1 {
+    background: linear-gradient(256deg, #37b33d, #8a3dbc);
+    background-size: 400% 400%;
+    height: 100vh;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    -o-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+.tech-logos
+{
+    margin-top: 100px;
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me-div
+{
+    
+    border-radius: solid;
+    border-color: white;
+    color: black;
+    padding-top: 50px;
+    width: 700px;
+    height: 50vh;
+}
+
+.contact-me-div h1 {
+    text-align: center;
+}
+.nav-box {
+    display: flex;
+}
+
+.carousel-portfolio {
+    height: 100vh;
+    margin-top: 30px;
+}
