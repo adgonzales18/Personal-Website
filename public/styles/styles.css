@@ -17,6 +17,8 @@
         align-items: center;
         flex-direction: column;
     }
+
+  
     .technology-logos-body {
         display: flex;
         flex-wrap: wrap;
@@ -24,6 +26,7 @@
     }
     .tech-logos {
         text-align: center;
+        width: 33.33%;
         margin-bottom: 20px; /* Optional: Adjust spacing between icons */
     }
 }
@@ -60,10 +63,13 @@ body {
     text-align: center;
 }
 
-#contact-me {
-    background-color: whitesmoke;
+.mb-3 {
+   color: red;
 }
 
+.footer-icon {
+    color: whitesmoke;
+}
 .full-stack {
     font-family:'Montserrat-Bold', sans-serif;
 }
