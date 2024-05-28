@@ -47,6 +47,7 @@ body {
     background-color: whitesmoke;
     color: black;
     height: 100vh;
+    font-family: 'Merriweather', serif; 
 }
 
 #technology-stack h1{
