@@ -1,7 +1,8 @@
 @media (max-width: 1023px) {
+
     /* Center header contents */
     #header .container {
-        display: flex;
+        display: inline-flexbox;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -9,6 +10,18 @@
     /* Adjust spacing for smaller screens */
     #header .name {
         margin-top: 10px;
+    }
+
+    #technology-stack {
+        display: inline-flexbox;
+    }
+
+    #portfolio {
+        display: inline-flexbox;
+    }
+
+    #footer {
+        display: inline-flexbox;
     }
     /* Center profile image */
     .about-me .row {
@@ -18,9 +31,7 @@
         flex-direction: column;
     }
 
-  
     .technology-logos-body {
-        display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -29,6 +40,7 @@
         width: 33.33%;
         margin-bottom: 20px; /* Optional: Adjust spacing between icons */
     }
+
 }
 
 body {
@@ -46,7 +58,8 @@ body {
     height: 100%;
 }
 #technology-stack {
-    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: whitesmoke;
     color: black;
@@ -58,10 +71,14 @@ body {
     display: inline-block;
 }
 
-#portfolio{
+#portfolio {
     padding: 30px;
     color: white;
     text-align: center;
+}
+
+.carouselExampleDark {
+    display: block;
 }
 
 .mb-3 {
