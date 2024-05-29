@@ -35,7 +35,7 @@ body {
     display: inline-flexbox;
     background-color: black;
     color: white;
-    height: 100vh;
+
 }
 
 #header {
@@ -43,13 +43,14 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Merriweather', serif; 
+    height: 100%;
 }
 #technology-stack {
-    padding-top: 50px;
+    padding: 50px;
     text-align: center;
     background-color: whitesmoke;
     color: black;
-    height: 100vh;
+    height: 100%;
     font-family: 'Merriweather', serif; 
 }
 
