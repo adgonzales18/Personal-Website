@@ -58,12 +58,12 @@
         justify-content: center;
     }
     .brands-tech {
-        font-size: 3rem;
+        font-size: 1px;
     }
 }
 
 body {
-    display: inline-flexbox;
+    display: flex;
     flex-direction: column;
     background-color: black;
     color: white;
@@ -85,6 +85,7 @@ body {
 }
 
 .technology-stack-body {
+    display: inline-block;
     padding-top: 50px;
     height: 100vh;
 }
@@ -113,10 +114,7 @@ body {
 .full-stack {
     font-family:'Montserrat-Bold', sans-serif;
 }
-.nav-link {
-    color: black;
-}
-.name {
+.nav-link, .name {
     color: black;
 }
 .grad1 {
@@ -162,7 +160,6 @@ body {
 
 .carousel-portfolio {
     height: 100%;
-    margin-top: 30px;
 }
 
 .brands-tech {
