@@ -12,6 +12,7 @@
         margin-top: 10px;
     }
 
+
     #technology-stack {
         display: inline-flexbox;
     }
@@ -26,9 +27,35 @@
     /* Center profile image */
     .about-me .row {
         display: flex;
-        justify-content: center;
+        justify-content:space-evenly;
         align-items: center;
         flex-direction: column;
+    }
+
+    .photo-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-content {
+        display: inline-flexbox;
+        justify-content: center;
+    }
+    .profile-photo {
+        justify-self: center;
+        height: 15rem;
+        width: 15rem;
+    }
+    .display-5{
+        font-size: 1.5rem;
+    }
+
+    .profile-description {
+        font-size: 1rem;
+    }
+
+    .lead {
+        font-size: .65rem;
     }
 
     .technology-logos-body {
@@ -55,15 +82,19 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Merriweather', serif; 
-    height: 100dvh;
+    height: 100vh;
 }
 #technology-stack {
-    display: flexbox;
+    display: inline-flexbox;
     text-align: center;
     background-color: whitesmoke;
     color: black;
-    height: 100vh;
     font-family: 'Merriweather', serif; 
+}
+
+.technology-stack-body {
+    padding-top: 50px;
+    height: 100vh;
 }
 
 #technology-stack h1{
