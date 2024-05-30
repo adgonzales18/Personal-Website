@@ -1,4 +1,4 @@
-@media (max-width: 1023px) {
+@media (max-width: 479px) {
 
     /* Center header contents */
     #header .container {
@@ -37,25 +37,21 @@
         justify-content: center;
     }
 
-    .profile-content {
-        display: inline-flexbox;
-        justify-content: center;
-    }
     .profile-photo {
         justify-self: center;
         height: 15rem;
         width: 15rem;
     }
     .display-5{
-        font-size: 1.5rem;
+        font-size: 1.5em;
     }
 
     .profile-description {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .lead {
-        font-size: .65rem;
+        font-size: .65em;
     }
 
     .technology-logos-body {
