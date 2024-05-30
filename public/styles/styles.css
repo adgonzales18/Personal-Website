@@ -38,7 +38,6 @@
     }
 
     .profile-photo {
-        justify-self: center;
         height: 15rem;
         width: 15rem;
     }
@@ -155,7 +154,6 @@ body {
 }
 .tech-logos
 {
-    margin-top: 100px;
     display: inline-flexbox;
     justify-content: center;
     align-items: center;
