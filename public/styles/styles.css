@@ -57,12 +57,9 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .tech-logos {
-        text-align: center;
-        width: 33.33%;
-        margin-bottom: 20px; /* Optional: Adjust spacing between icons */
+    .brands-tech {
+        font-size: 3rem;
     }
-
 }
 
 body {
@@ -166,4 +163,8 @@ body {
 .carousel-portfolio {
     height: 100%;
     margin-top: 30px;
+}
+
+.brands-tech {
+    font-size: 9rem;
 }
