@@ -133,7 +133,6 @@ body {
     -o-animation: AnimationName 37s ease infinite;
     animation: AnimationName 37s ease infinite;
 }
-
 @-webkit-keyframes AnimationName {
     0%{background-position:20% 0%}
     50%{background-position:81% 100%}
