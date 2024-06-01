@@ -34,20 +34,35 @@
         font-size: 1em;
     }
 
+    .btn-hero {
+        font-size: .8rem;
+
+    }
+
+    .btn-hero svg, .btn-hero i {
+    height: 1rem; /* Adjust SVG/icon height as needed */
+    width: auto;
+    margin-right: 5px; /* Adjust margin between icon and text */
+    }
+
     .lead {
         font-size: .65em;
     }
 
-    .technology-stack-body .tech-logos {
-        flex-wrap: wrap;
+    .stack-icon {
+        display: flex;
+        align-items: center;
+
     }
-    .technology-stack-body .brands-tech, h3 {
-        font-size: 1.5rem !important;
-        width: 50%;
+    .technology-stack-body .brands-tech {
+        margin-right: 20px;
+        font-size: 2.5rem !important;
+    }
+
+    .technology-stack-body h3{
+        font-size: 1rem;
     }
 }
-
-
 
 body {
     display: flex;
