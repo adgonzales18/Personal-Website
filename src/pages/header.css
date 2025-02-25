@@ -1,0 +1,52 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid var(--primary);
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent), 30; 
+    backdrop-filter: blur(20px);
+    padding: 10px 100px
+}
+
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+a.header-name {
+    font-family: 'Montserrat', 'san-serif';
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.header-name:hover{
+    color: var(--primary);
+    text-decoration: underline;
+    
+}
+.nav {
+    display: flex;
+    font-size: 1.5rem;
+}

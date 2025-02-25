@@ -1,0 +1,34 @@
+.container.technology-stack {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 5rem;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.row.tech-stack-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px; 
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.row.tech-stack-logos h2 {
+    font-size: 1.5rem;
+}

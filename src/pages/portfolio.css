@@ -1,0 +1,23 @@
+#portfolio {
+    background-color: gray;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.portfolio-body {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portfolio-body h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.portfolio-body .container{
+    display: block;
+}

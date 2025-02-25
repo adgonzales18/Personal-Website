@@ -1,0 +1,27 @@
+.techstack-card {
+    border: none;
+    display: center;
+    position: relative;
+    border-radius: 0;
+    background-color: #000000 !important;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.techstack-card::before{
+    position: absolute;
+    content:'';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scale(0);
+}
