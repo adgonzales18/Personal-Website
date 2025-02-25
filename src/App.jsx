@@ -24,14 +24,14 @@ function App() {
   }, []);
 
   return (
-    <Router>
-    <Header />
+    <Router basename="/Personal-Website" >
+      <Header />
 
-    <Routes>
-      <Route path="/#/" element={<><Banner /><TechnologyStack /><Portfolio /><Footer /></>} />
+      <Routes>
+        <Route path="/Personal-Website" element={<><Banner /><TechnologyStack /><Portfolio /><Footer /></>} />
 
-      <Route path="/#/contact-me" element={<><Contact /><Footer /></>} />
-    </Routes>
+        <Route path="/Personal-Website/#/contact-me" element={<><Contact /><Footer /></>} />
+      </Routes>
 
     <BackToTopBtn scroll={scroll} />
   </Router>
