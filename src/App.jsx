@@ -28,9 +28,9 @@ function App() {
     <Header />
 
     <Routes>
-      <Route path="/" element={<><Banner /><TechnologyStack /><Portfolio /><Footer /></>} />
+      <Route path="/#/" element={<><Banner /><TechnologyStack /><Portfolio /><Footer /></>} />
 
-      <Route path="/contact-me" element={<><Contact /><Footer /></>} />
+      <Route path="/#/contact-me" element={<><Contact /><Footer /></>} />
     </Routes>
 
     <BackToTopBtn scroll={scroll} />

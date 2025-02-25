@@ -1,7 +1,7 @@
 const headerListData = [
     {
         _id: 1,
-        link: '/',
+        link: '/#/',
         name: 'about me',
         active: true,
     },
@@ -19,7 +19,7 @@ const headerListData = [
     },
     {
         _id: 4,
-        link: '/contact-me',
+        link: '/#/contact-me',
         name: 'contact me',
         active: false,
     },

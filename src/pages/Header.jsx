@@ -15,13 +15,13 @@ function Header() {
       setHeaderList([
         {
           _id: 1,
-          link: '/',
+          link: '/#/',
           name: 'Home',
           active: true,
         },
         {
           _id: 2,
-          link: '/contact-me',
+          link: '/#/contact-me',
           name: 'Contact Me',
           active: false,
         },
@@ -30,7 +30,7 @@ function Header() {
       setHeaderList(headerListData);
     }
   }, [location.pathname]);
-
+  
   const handleNavOnClick = id => {
     const newHeaderList = headerList.map(nav => {
       nav.active = false;
@@ -43,11 +43,11 @@ function Header() {
 
   return (
     <header>
-      <a href="/" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
-      <a href="/" className="header-name">Avril Donovan Gonzales</a>
+      <a href="/#/" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
+      <a href="/#/" className="header-name">Avril Donovan Gonzales</a>
       <ul className="nav">
         {
-          headerList.map(nav => (
+          headerListData.map(nav => (
             <HeaderListItem 
             key={nav._id}
             nav={nav}
