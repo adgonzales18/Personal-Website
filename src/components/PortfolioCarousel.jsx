@@ -20,7 +20,6 @@ function PortfolioCarousel() {
     setHovered(false)
   };
 
-
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item
