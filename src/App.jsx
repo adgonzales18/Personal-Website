@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import './App.css';
 import Header from './pages/Header';
@@ -24,17 +24,17 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/Personal-Website" >
+    <Router>
       <Header />
-
+      
       <Routes>
-        <Route path="/Personal-Website" element={<><Banner /><TechnologyStack /><Portfolio /><Footer /></>} />
-
-        <Route path="/Personal-Website/#/contact-me" element={<><Contact /><Footer /></>} />
+        <Route path="/" element={<><Banner /><TechnologyStack /><Portfolio /><Footer /></>} />
+        
+        <Route path="/contact-me" element={<><Contact /><Footer /></>} />
       </Routes>
 
-    <BackToTopBtn scroll={scroll} />
-  </Router>
+      <BackToTopBtn scroll={scroll} />
+    </Router>
   );
 }
 

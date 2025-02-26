@@ -1,7 +1,7 @@
 const headerListData = [
     {
         _id: 1,
-        link: '/Personal-Website',
+        link: '/',
         name: 'about me',
         active: true,
     },
@@ -19,7 +19,7 @@ const headerListData = [
     },
     {
         _id: 4,
-        link: '/Personal-Website/#/contact-me',
+        link: '/contact-me',
         name: 'contact me',
         active: false,
     },
