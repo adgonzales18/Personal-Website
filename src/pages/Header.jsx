@@ -44,8 +44,8 @@ function Header() {
 
   return (
     <header>
-      <a href="/" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
-      <a href="/" className="header-name">Avril Donovan Gonzales</a>
+      <a href="#" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
+      <a href="#" className="header-name">Avril Donovan Gonzales</a>
       <ul className="nav">
         {
           headerList.map(nav => (
