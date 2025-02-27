@@ -26,7 +26,7 @@ function PortfolioCarousel() {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}>
             <div className={`carousel-item-wrapper ${hovered ? 'hovered' : ''}`}>
-                <video autoPlay muted className='carousel-video'>
+                <video autoPlay muted loop className='carousel-video'>
                 <source src={FlixifyVideo} type="video/mp4"/>
                 </video>
                 <div className="carousel-caption-wrapper">
@@ -41,7 +41,7 @@ function PortfolioCarousel() {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}>
             <div className={`carousel-item-wrapper ${hovered ? 'hovered' : ''}`}>
-                <video autoPlay muted className='carousel-video'>
+                <video autoPlay muted loop className='carousel-video'>
                 <source src={ToDoVideo} type="video/mp4"/>
                 </video>
                 <div className="carousel-caption-wrapper">

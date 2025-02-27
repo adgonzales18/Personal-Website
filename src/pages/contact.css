@@ -7,7 +7,12 @@
     justify-content: center;
     align-items: center;
   }
-
+.contact-me .container{
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .grad1 {
     background: linear-gradient(256deg, #37b33d, #8a3dbc);
     background-size: 400% 400%;

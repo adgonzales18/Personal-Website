@@ -3,7 +3,7 @@
     height: 100vh;
     align-content: center;
     justify-content: center;
-    padding: 120px 0;
+    padding: 150px 0;
 }
 
 .portfolio-body {
@@ -13,7 +13,7 @@
 }
 
 .portfolio-body h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
     text-align: center;
 }
