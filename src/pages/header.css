@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 100px;
+    padding: 30px 70px;
     transition: 0.5s;
     z-index: 1000;
 }
@@ -15,7 +15,7 @@ header.scrolled {
     border-bottom: 2px solid var(--primary);
     border-image: linear-gradient(90deg, transparent, var(--primary), transparent), 30; 
     backdrop-filter: blur(20px);
-    padding: 10px 100px
+    padding: 10px 100px;
 }
 
 .logo {
@@ -34,7 +34,7 @@ header.scrolled {
 
 a.header-name {
     font-family: 'Montserrat', 'san-serif';
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: #000000;
     font-weight: 800;
     text-decoration: none;
@@ -48,5 +48,5 @@ a.header-name:hover{
 }
 .nav {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
