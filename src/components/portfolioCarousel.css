@@ -69,4 +69,14 @@ video {
   margin: 0;
 }
 
+@media (max-width: 640px) {
+
+    video {
+        width: auto;
+        height: 250px;
+    }   
+    
+
+}
+
 

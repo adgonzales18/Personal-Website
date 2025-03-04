@@ -44,3 +44,16 @@
     color: white;  
     font-size: 15px;  
 }
+
+@media (max-width: 640px) {
+
+    .footer-top a {
+        padding-left: 30px;
+        font-size: .7rem;
+    }
+    .footer-top p {
+        font-size: .7rem;
+    }
+    
+
+}

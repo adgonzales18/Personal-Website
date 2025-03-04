@@ -35,3 +35,29 @@
 .row.tech-stack-logos h2 {
     font-size: 1.5rem;
 }
+
+@media (max-width: 640px) {
+    .container.technology-stack {
+        padding: 100px 0;
+    }
+
+    .container.technology-stack .section-title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .row.tech-stack-logos {
+        gap: 10px;
+        margin-top: 20px; 
+        grid-template-columns: auto;
+        font-size: 1.5rem;
+    }
+
+    .row.tech-stack-logos h2 {
+        font-size: .6rem;
+    }
+   
+}

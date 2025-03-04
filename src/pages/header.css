@@ -50,3 +50,21 @@ a.header-name:hover{
     display: flex;
     font-size: 1.3rem;
 }
+
+@media (max-width: 640px) {
+    .logo img {
+        width: 50px;
+        height: auto;
+    }
+
+    a.header-name {
+        font-size: 1rem;
+        font-weight: 800;
+        
+    }
+
+    .nav {
+        display: flex;
+        font-size: .8rem;
+    }
+}

@@ -74,3 +74,32 @@ ion-icon {
     vertical-align: middle;
     padding: 3px;
 }
+
+@media (max-width: 640px) {
+    .banner{
+        text-align: center;
+        padding: 30 30px
+    }
+    .full-stack {
+        margin-top: 16px;
+        font-size: 2rem;
+    }
+    .profile-photo {
+        width: 15rem;
+        height: auto;
+    }
+
+    .profile-description {
+        font-size: 1.2rem;
+    }
+
+    .profile-mantra {
+        font-family: 'Merriweather', 'serif';
+        font-size: .7rem;
+    }
+
+    .btn-hero {
+        font-size: .8rem;
+    }
+   
+}
