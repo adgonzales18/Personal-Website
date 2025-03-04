@@ -50,6 +50,7 @@
     .footer-top a {
         padding-left: 30px;
         font-size: .7rem;
+        visibility: hidden;
     }
     .footer-top p {
         font-size: .7rem;
