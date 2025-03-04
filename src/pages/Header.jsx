@@ -41,14 +41,21 @@ function Header() {
 
     setHeaderList(newHeaderList);
   };
+
+  const handleBurgerMenuClick = (event) => {
+    event.stopPropagation();
+    event.preventDefault();
+    setIsMenuOpen((prevState) => !prevState);
+
+    console.log("Burger menu is clicked, current state:", !isMenuOpen);
+  }
   
 
   return (
     <header>
       <a href="#" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
       <a href="#" className="header-name">Avril Donovan Gonzales</a>
-
-      <div className="burger-menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <div className="burger-menu" onClick={handleBurgerMenuClick}>
         <div className="burger-line"></div>
         <div className="burger-line"></div>
         <div className="burger-line"></div>
