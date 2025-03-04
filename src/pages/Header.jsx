@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
   const [headerList, setHeaderList] = useState(headerListData);
   const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
     if (location.pathname === '/contact-me') {
@@ -46,7 +47,13 @@ function Header() {
     <header>
       <a href="#" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
       <a href="#" className="header-name">Avril Donovan Gonzales</a>
-      <ul className="nav">
+
+      <div className="burger-menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <div className="burger-line"></div>
+        <div className="burger-line"></div>
+        <div className="burger-line"></div>
+      </div>
+      <ul className={`nav ${isMenuOpen ? 'open' : ''}`}>
         {
           headerList.map(nav => (
             <HeaderListItem 

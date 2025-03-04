@@ -55,6 +55,10 @@
     .footer-top p {
         font-size: .7rem;
     }
+
+    .social-media-links a {
+        visibility: visible;
+    }
     
 
 }
