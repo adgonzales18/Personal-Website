@@ -27,6 +27,11 @@
         padding: 30px 0;
     }
 
+    .portfolio-body {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
     .portfolio-body h1 {
         font-size: 1.5rem;
         margin-bottom: 10px;
@@ -39,7 +44,13 @@
         padding: 30px 0;
     }
 
+    .portfolio-body {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
     .portfolio-body h1 {
+
         font-size: 1.5rem;
         margin-bottom: 10px;
     }
