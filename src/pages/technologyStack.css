@@ -38,8 +38,9 @@
 
 @media (max-width: 640px) {
     .container.technology-stack {
-        padding: 100px 0;
         justify-content: flex-start;
+        padding: 20px 10px;
+        margin-bottom: 50px;
     }
 
     .container.technology-stack .section-title {
@@ -67,7 +68,8 @@
 @media (max-width: 432px) {
     .container.technology-stack {
         justify-content: flex-start;
-        padding: 20px 0;
+        padding: 20px 10px;
+        margin-bottom: 50px;
     }
 
     .container.technology-stack .section-title {
