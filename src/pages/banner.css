@@ -78,8 +78,10 @@ ion-icon {
 @media (max-width: 640px) {
     .banner{
         text-align: center;
-        padding: 30 30px
+        padding: 30 30px;
+        align-content: center;
     }
+
     .full-stack {
         margin-top: 16px;
         font-size: 2rem;
@@ -100,6 +102,43 @@ ion-icon {
 
     .btn-hero {
         font-size: .8rem;
+    }
+
+    .media-buttons {
+        justify-content: center;
+    }
+   
+}
+
+@media (max-width: 432px) {
+    .banner{
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .full-stack {
+        margin-top: 13px;
+        font-size: 3rem;
+    }
+    .profile-photo {
+        width: 20rem;
+        height: auto;
+    }
+
+    .profile-description {
+        font-size: 1.5rem;
+    }
+
+    .profile-mantra {
+        font-family: 'Merriweather', 'serif';
+        font-size: 1rem;
+    }
+
+    .btn-hero {
+        font-size: 1rem;
+    }
+
+    .media-buttons {
+        justify-content: center;
     }
    
 }

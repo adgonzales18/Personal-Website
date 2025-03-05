@@ -68,7 +68,7 @@ a.header-name:hover{
 @media (max-width: 640px) {
     header {
         position: relative;
-        padding: 20px
+        padding: 20px;
     }
     .logo img {
         width: 50px;

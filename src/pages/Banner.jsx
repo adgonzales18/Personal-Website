@@ -14,7 +14,7 @@ function Banner() {
             <h1 className="full-stack">Full Stack Developer</h1>
             <h2 className='profile-description'>Business Enabler | Mechanical Engineering | MBA</h2>
             <p className='profile-mantra'>I help businesses grow and thrive using technology based solutions.</p>
-            <div className="d-flex gap-2">
+            <div className="media-buttons d-flex gap-2">
                 <Button 
                   className="btn btn-dark btn-lg btn-hero"
                   icon={<ion-icon name="logo-linkedin"></ion-icon>}

@@ -2,9 +2,11 @@ import React from 'react'
 
 function TechStackCard({icon, techName}) {
   return (
-    <div className="col-lg-2 col-md-4 col-sm-4 col-6">
+    <div className="col-lg-2 col-md-4">
         <div className="techstack-card">
-            {icon}
+          <div className="techstack-card-icon">
+           {icon}
+          </div>
             <h2>{techName}</h2>
         </div>
     </div>

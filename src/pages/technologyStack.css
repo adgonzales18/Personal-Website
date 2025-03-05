@@ -28,17 +28,18 @@
     justify-content: center;
     gap: 65px;
     margin-top: 20px; 
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
 }
 
 .row.tech-stack-logos h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 640px) {
     .container.technology-stack {
         padding: 100px 0;
+        justify-content: flex-start;
     }
 
     .container.technology-stack .section-title {
@@ -50,6 +51,8 @@
     }
 
     .row.tech-stack-logos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 10px;
         margin-top: 20px; 
         font-size: 1.5rem;
@@ -57,6 +60,33 @@
 
     .row.tech-stack-logos h2 {
         font-size: .6rem;
+    }
+   
+}
+
+@media (max-width: 432px) {
+    .container.technology-stack {
+        justify-content: flex-start;
+        padding: 20px 0;
+    }
+
+    .container.technology-stack .section-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .row.tech-stack-logos {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px; 
+        font-size: 3rem;
+    }
+
+    .row.tech-stack-logos h2 {
+        font-size: 1rem;
     }
    
 }
