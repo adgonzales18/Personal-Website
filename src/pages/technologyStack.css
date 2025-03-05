@@ -52,7 +52,6 @@
     .row.tech-stack-logos {
         gap: 10px;
         margin-top: 20px; 
-        grid-template-columns: auto;
         font-size: 1.5rem;
     }
 

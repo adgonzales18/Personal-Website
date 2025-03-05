@@ -1,6 +1,6 @@
 .techstack-card {
     border: none;
-    display: center;
+    display: flex;
     position: relative;
     border-radius: 0;
     background-color: #000000 !important;
@@ -10,6 +10,7 @@
     justify-content: center;
     width: 100px;
     height: 100px;
+    overflow: hidden;
 }
 
 .techstack-card::before{
@@ -24,4 +25,12 @@
     visibility: hidden;
     transition: 0.5s;
     transform: scale(0);
+}
+
+
+@media (max-width: 480px) {
+    .techstack-card {
+        width: 30%;
+        height: auto;
+    }
 }

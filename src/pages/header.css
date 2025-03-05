@@ -66,7 +66,7 @@ a.header-name:hover{
 
 
 @media (max-width: 640px) {
-    .header {
+    header {
         position: relative;
         padding: 20px
     }
