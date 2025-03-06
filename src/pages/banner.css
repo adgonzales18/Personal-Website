@@ -102,33 +102,54 @@ ion-icon {
     padding: 3px;
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 320px) {
     .banner{
+        justify-content: center;
         text-align: center;
-        padding: 30 30px;
+        padding: 30px 30px;
         align-content: center;
     }
 
+    .photo-content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
     .full-stack {
-        margin-top: 16px;
-        font-size: 2rem;
+        margin-top: 10px;
+        font-size: 300%;
     }
     .profile-photo {
-        width: 15rem;
+        justify-content: center;
+        width: 120%;
         height: auto;
     }
 
     .profile-description {
-        font-size: 1.2rem;
+        font-size: 200%;
     }
 
     .profile-mantra {
         font-family: 'Merriweather', 'serif';
-        font-size: .7rem;
+        font-size: 100%;
     }
 
     .btn-hero {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .media-buttons {
@@ -137,31 +158,55 @@ ion-icon {
    
 }
 
-@media (max-width: 432px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+
     .banner{
+        justify-content: center;
         text-align: center;
-        padding: 10px 10px;
+        padding: 30px 30px;
+        align-content: center;
     }
+
+    .photo-content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
     .full-stack {
-        margin-top: 13px;
-        font-size: 3rem;
+        margin-top: 10px;
+        font-size: 300%;
     }
     .profile-photo {
-        width: 20rem;
+        justify-content: center;
+        width: 100%;
         height: auto;
     }
 
     .profile-description {
-        font-size: 1.5rem;
+        font-size: 150%;
     }
 
     .profile-mantra {
         font-family: 'Merriweather', 'serif';
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .btn-hero {
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 
     .media-buttons {
@@ -169,3 +214,119 @@ ion-icon {
     }
    
 }
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+    .banner{
+        justify-content: center;
+        text-align: center;
+        padding: 30px 30px;
+        align-content: center;
+    }
+
+    .photo-content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .full-stack {
+        margin-top: 10px;
+        font-size: 350%;
+    }
+    .profile-photo {
+        justify-content: center;
+        width: 80%;
+        height: auto;
+    }
+
+    .profile-description {
+        font-size: 200%;
+    }
+
+    .profile-mantra {
+        font-family: 'Merriweather', 'serif';
+        font-size: 150%;
+    }
+
+    .btn-hero {
+        font-size: 1.7rem;
+    }
+
+    .media-buttons {
+        justify-content: center;
+    }
+   
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .banner{
+
+        justify-content: center;
+        text-align: center;
+        padding: 30px 30px;
+        align-content: center;
+    }
+
+    .photo-content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profile-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .full-stack {
+        margin-top: 10px;
+        font-size: 350%;
+    }
+    .profile-photo {
+        justify-content: center;
+        width: 50%;
+        height: auto;
+    }
+
+    .profile-description {
+        font-size: 200%;
+    }
+
+    .profile-mantra {
+        font-family: 'Merriweather', 'serif';
+        font-size: 150%;
+    }
+
+    .btn-hero {
+        font-size: 1.7rem;
+    }
+
+    .media-buttons {
+        justify-content: center;
+    }
+   
+}
+

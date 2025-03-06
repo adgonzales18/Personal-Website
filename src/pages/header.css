@@ -34,7 +34,7 @@ header.scrolled {
 
 a.header-name {
     font-family: 'Montserrat', 'san-serif';
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     color: #000000;
     font-weight: 800;
     text-decoration: none;
@@ -43,12 +43,11 @@ a.header-name {
 
 a.header-name:hover{
     color: var(--primary);
-    text-decoration: underline;
-    
 }
+
 .nav {
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 .burger-menu {
@@ -65,22 +64,22 @@ a.header-name:hover{
 }
 
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 320px) {
     header {
         position: relative;
-        padding: 20px;
+        padding: 15px;
     }
     .logo img {
-        width: 50px;
+        width: 75px;
         height: auto;
     }
     a.header-name {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .nav {
         display: none;
         flex-direction: column;
-        font-size: 1rem;
+        font-size: 1.3rem;
         background-color: #fff;
         padding: 20px;
         width: 100%;
@@ -100,10 +99,121 @@ a.header-name:hover{
         background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
         background-color: transparent;
     }
-
     .burger-menu {
         display: flex;
     }
+}
 
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    header {
+        position: relative;
+        padding: 15px;
+    }
+    .logo img {
+        width: 75px;
+        height: auto;
+    }
+    a.header-name {
+        font-size: 1.7rem;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        font-size: 1.5rem;
+        background-color: #fff;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        gap: 10px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease; 
+    }
 
+    .nav.open {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+        background-color: transparent;
+    }
+    .burger-menu {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    header {
+        position: relative;
+        padding: 15px;
+    }
+    .logo img {
+        width: 75px;
+        height: auto;
+    }
+    a.header-name {
+        font-size: 1.7rem;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        font-size: 1.5rem;
+        background-color: #fff;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        gap: 10px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease; 
+    }
+
+    .nav.open {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+        background-color: transparent;
+    }
+    .burger-menu {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    .logo img {
+        width: 75px;
+        height: auto;
+    }
+    a.header-name {
+        font-size: 1.7rem;
+    }
+
+    .nav {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 15px;
+    }
+    .logo img {
+        width: 75px;
+        height: auto;
+    }
+    a.header-name {
+        font-size: 1.8rem;
+    }
+
+    .nav {
+        font-size: 1.5rem;
+    }
 }

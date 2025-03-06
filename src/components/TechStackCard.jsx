@@ -2,7 +2,7 @@ import React from 'react'
 
 function TechStackCard({icon, techName}) {
   return (
-    <div className="col-lg-2 col-md-4">
+    <div className="col-lg-2 col-md-4 card-holder">
         <div className="techstack-card">
           <div className="techstack-card-icon">
            {icon}

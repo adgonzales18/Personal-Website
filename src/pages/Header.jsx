@@ -53,27 +53,24 @@ function Header() {
 
   return (
     <header>
-      <a href="#" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
-      <a href="#" className="header-name">Avril Donovan Gonzales</a>
-      <div className="burger-menu" onClick={handleBurgerMenuClick}>
-        <div className="burger-line"></div>
-        <div className="burger-line"></div>
-        <div className="burger-line"></div>
-      </div>
-      <ul className={`nav ${isMenuOpen ? 'open' : ''}`}>
-        {
-          headerList.map(nav => (
-            <HeaderListItem 
-            key={nav._id}
-            nav={nav}
-            navOnClick={handleNavOnClick}
-            />
-          ))
-        }
-      </ul>
-      
-
-
+        <a href="#" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
+        <a href="#" className="header-name">Avril Donovan Gonzales</a>
+        <div className="burger-menu" onClick={handleBurgerMenuClick}>
+          <div className="burger-line"></div>
+          <div className="burger-line"></div>
+          <div className="burger-line"></div>
+        </div>
+        <ul className={`nav ${isMenuOpen ? 'open' : ''}`}>
+          {
+            headerList.map(nav => (
+              <HeaderListItem 
+              key={nav._id}
+              nav={nav}
+              navOnClick={handleNavOnClick}
+              />
+            ))
+          }
+        </ul>
     </header>
   )
 }
