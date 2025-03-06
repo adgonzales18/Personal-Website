@@ -272,7 +272,7 @@ ion-icon {
    
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) and (orientation: portrait) {
 
     .banner{
         justify-content: center;
@@ -329,7 +329,7 @@ ion-icon {
    
 }
 
-@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
 
     .banner{
         justify-content: center;

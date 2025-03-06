@@ -227,13 +227,13 @@ a.header-name:hover{
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
     header {
         position: relative;
         padding: 15px;
     }
     .logo img {
-        width: 50px;
+        width: 40px;
         height: auto;
     }
     a.header-name {
@@ -242,7 +242,7 @@ a.header-name:hover{
     .nav {
         display: none;
         flex-direction: column;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         background-color: #fff;
         padding: 20px;
         width: 100%;
