@@ -82,7 +82,7 @@ video {
 @media (max-width: 640px) {
     video {
         width: auto;
-        height: 250px;
+        height: 220px;
     }
 
     .carousel-caption-small {

@@ -1,4 +1,5 @@
 #portfolio {
+    display: flex;
     background: linear-gradient(256deg, #37b33d, #8a3dbc);
     height: 100vh;
     align-content: center;
@@ -24,12 +25,13 @@
 
 @media (max-width: 640px) {
     #portfolio {
+        height: auto;
+        display: block;
         padding: 30px 0;
     }
 
-    .portfolio-body {
-        justify-content: flex-start;
-        align-items: flex-start;
+    .container.portfolio-body {
+        margin-top: 20px;
     }
 
     .portfolio-body h1 {
@@ -41,16 +43,12 @@
 
 @media (max-width: 432px) {
     #portfolio {
+        display: block;
         padding: 30px 0;
-    }
-
-    .portfolio-body {
-        justify-content: flex-start;
-        align-items: flex-start;
+        height: auto;
     }
 
     .portfolio-body h1 {
-
         font-size: 1.5rem;
         margin-bottom: 10px;
     }
