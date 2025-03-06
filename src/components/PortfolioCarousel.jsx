@@ -33,7 +33,7 @@ function PortfolioCarousel() {
                     <h2>FLIXIFY</h2>
                     <p>A streaming website.</p>
                     <p>TECH STACK: React, JavaScript, Bootstrap</p>
-                    <a href='' className="project-link" ><ion-icon name="link-outline"></ion-icon></a>
+                    <a href='https://github.com/adgonzales18/Flixify' className="project-link" ><ion-icon name="link-outline"></ion-icon></a>
                 </div>
             </div>
       </Carousel.Item>
@@ -50,7 +50,7 @@ function PortfolioCarousel() {
                     <h2>TO-DO APP</h2>
                     <p>Basic To-Do App.</p>
                     <p>TECH STACK: React, JavaScript, CSS Styling</p>
-                    <a href="/" className="project-link" ><ion-icon name="link-outline"></ion-icon></a>
+                    <a href="https://github.com/adgonzales18/To-Do-App" className="project-link" ><ion-icon name="link-outline"></ion-icon></a>
                 </div>
             </div>
       </Carousel.Item>
