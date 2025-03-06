@@ -10,7 +10,6 @@
     width: 100vw;
     background-color: transparent;
     padding: 200px 0;
-    
 }
 
 .container.technology-stack .section-title {
@@ -28,12 +27,12 @@
     justify-content: center;
     gap: 65px;
     margin-top: 20px; 
-    font-size: 4rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
 }
 
 .row.tech-stack-logos h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 640px) {
