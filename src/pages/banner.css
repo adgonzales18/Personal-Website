@@ -44,9 +44,36 @@
 .profile-content {
     font-family: 'Montserrat', 'sans-serif';
     align-content: center;
-
+    transform: translateX(-20vw);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
+.profile-content.visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.profile-content.hidden {
+    transform: translateX(-20vw);
+    opacity: 0;
+}
+
+.photo-content {
+    transform: translateX(20vw);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.photo-content.visible{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.photo-content.hidden {
+    transform: translateX(20vw);
+    opacity: 0;
+}
 .full-stack {
     font-size: 3.5rem;
 }
