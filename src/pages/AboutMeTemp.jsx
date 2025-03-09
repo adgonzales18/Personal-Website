@@ -1,5 +1,5 @@
 import React from 'react'
-import PersonalPhoto from '../assets/photo_personal.png'
+import PersonalPhoto from '../assets/photo_personal.PNG'
 import './about.css'
 import TechnologyStack from './TechnologyStack'
 
