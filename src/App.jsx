@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Header from './pages/Header';
 import Banner from './pages/Banner';
-import AboutMe from './pages/AboutMe';
+import AboutMe from './pages/AboutMe.Jsx';
 import Portfolio from './pages/Portfolio';
 import Footer from './pages/Footer';
 import BackToTopBtn from './components/BackToTopBtn';
