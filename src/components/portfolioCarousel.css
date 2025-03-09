@@ -13,9 +13,13 @@ video {
 .carousel-item-wrapper.hovered .carousel-video {
     filter: blur(8px);
 }
+.carousel-caption-wrapper h2 {
+    font-size: 1.2rem;
+}
 
 .carousel-caption-wrapper {
     position: absolute;
+    font-size: 1rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -39,35 +43,8 @@ video {
 }
 
 
-.playBtn {
-    position: relative;
-    color: #ffffff;
-    width: 80px;
-    height: 80px;
-    transition: 1s;
-    z-index: 1000;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    border-radius: 50%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer !important;
-}
-
-.playBtn ion-icon {
-    font-size: 3.2rem;
-    color: black;
-    cursor: pointer;
-    text-align: center;
-    line-height: 1;
-    margin: 0;
-    display: block;
-
-}
-
 .project-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--primary)
 }
 .carousel-item-wrapper.hovered .carousel-caption-wrapper {
@@ -79,18 +56,67 @@ video {
   margin: 0;
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 320px) {
     video {
         width: auto;
-        height: 220px;
+        height: 170px;
     }
 
     .carousel-caption-small {
         visibility: visible;
         opacity: 1;
     }
+
     
 
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    video {
+        width: auto;
+        height: 270px;
+    }
+
+    .carousel-caption-small {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .project-link {
+        font-size: 2rem;
+    }
+
+    .carousel-caption-wrapper p {
+        font-size: 1.3rem;
+    }
+    .carousel-caption-wrapper h2 {
+        font-size: 2rem;
+    }
+    
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+    video {
+        width: auto;
+        height: 350px;
+    }
+
+    .carousel-caption-small {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .project-link {
+        font-size: 2rem;
+    }
+
+    .carousel-caption-wrapper p {
+        font-size: 1.3rem;
+    }
+    .carousel-caption-wrapper h2 {
+        font-size: 2rem;
+    }
 }
 
 

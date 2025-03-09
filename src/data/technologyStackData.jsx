@@ -14,7 +14,7 @@ const technologyStackData = [
     {
         _id: 3,
         icon:<i class="fa-brands fa-c brands-tech" aria-hidden="true"></i>,
-        techName:'c language',
+        techName:'language',
     }, 
     {
         _id: 4,

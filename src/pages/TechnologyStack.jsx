@@ -5,10 +5,9 @@ import technologyStackData from '../data/technologyStackData'
 
 function TechnologyStack() {
   return (
-    <section id="technology-stack">
-      <div className="container technology-stack">
-      <h1 className="section-title">Technology Stack</h1>
-      <div className='row tech-stack-logos'>
+    <div className="container technology-stack">
+      <h1 className="techstack-title">Technology Stack:</h1>
+      <div className='tech-stack-logos'>
         {technologyStackData.map((data) => (
           <TechStackCard 
             key={data._id}
@@ -18,8 +17,6 @@ function TechnologyStack() {
         ))}
       </div>
     </div>
-    </section>
-    
   )
 }
 

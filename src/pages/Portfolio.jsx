@@ -4,9 +4,9 @@ import './portfolio.css'
 
 function Portfolio() {
   return (
-    <section id="portfolio">
+    <section id="projects">
         <div className='container portfolio-body'>
-            <h1 className="section-title">Portfolio</h1>
+            <h1 className="section-title portfolio-title">Portfolio</h1>
             <div>
                 <PortfolioCarousel />
             </div>

@@ -1,4 +1,4 @@
-#portfolio {
+#projects {
     display: flex;
     background: linear-gradient(256deg, #37b33d, #8a3dbc);
     height: 100vh;
@@ -13,44 +13,59 @@
     margin: 0 auto;
 }
 
-.portfolio-body h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    text-align: center;
+.section-title.portfolio-title {
+    padding: 30px 0 30px 0;
+    text-transform: uppercase;
 }
-
 .portfolio-body .container{
     display: block;
 }
 
-@media (max-width: 640px) {
-    #portfolio {
+@media only screen and (max-width: 320px) {
+    #projects {
         height: auto;
-        display: block;
-        padding: 30px 0;
+        display: flex;
+        padding: 20px 0;
     }
 
     .container.portfolio-body {
         margin-top: 20px;
     }
 
-    .portfolio-body h1 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
+    .section-title.portfolio-title h1 {
+        padding: 10px 0;
     }
-
 }
 
-@media (max-width: 432px) {
-    #portfolio {
-        display: block;
-        padding: 30px 0;
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    #projects {
         height: auto;
+        display: flex;
+        padding: 20px 0;
     }
 
-    .portfolio-body h1 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
+    .container.portfolio-body {
+        margin-top: 20px;
+    }
+
+    .section-title.portfolio-title h1 {
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+    #projects {
+        height: auto;
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .container.portfolio-body {
+        margin-top: 20px;
+    }
+
+    .section-title.portfolio-title h1 {
+        padding: 10px 0;
     }
 
 }

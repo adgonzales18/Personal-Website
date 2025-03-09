@@ -45,20 +45,16 @@
     font-size: 15px;  
 }
 
-@media (max-width: 640px) {
+@media only screen and (max-width: 320px) {
 
     .footer-top a {
-        padding-left: 30px;
-        font-size: .7rem;
-        visibility: hidden;
+        padding-left: 10px;
+        font-size: .6rem;
+        text-wrap: nowrap;
     }
     .footer-top p {
         font-size: .55rem;
     }
 
-    .social-media-links a {
-        visibility: visible;
-    }
-    
 
 }

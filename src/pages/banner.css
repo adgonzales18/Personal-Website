@@ -131,16 +131,16 @@ ion-icon {
 
     .full-stack {
         margin-top: 10px;
-        font-size: 300%;
+        font-size: 150%;
     }
     .profile-photo {
         justify-content: center;
-        width: 120%;
+        width: 50%;
         height: auto;
     }
 
     .profile-description {
-        font-size: 200%;
+        font-size: 100%;
     }
 
     .profile-mantra {
@@ -149,7 +149,7 @@ ion-icon {
     }
 
     .btn-hero {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .media-buttons {
