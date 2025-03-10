@@ -61,3 +61,37 @@
     }
     
 }
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .techstack-card {
+        margin: 3px 0; 
+        padding: 3px;
+        height: auto;
+    }
+    .techstack-card-icon {
+        font-size: 1.6rem;
+        padding: 2px;
+    }
+
+    .tech-name {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .techstack-card {
+        margin: 0px 0; 
+        padding: 3px;
+        height: auto;
+    }
+    .techstack-card-icon {
+        font-size: 2rem;
+        padding: 2px;
+    }
+
+    .tech-name {
+        font-size: 2rem;
+    }
+    
+}

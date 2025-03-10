@@ -59,12 +59,29 @@
 
 }
 
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+
+    .technology-stack {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .tech-stack-logos {
+        gap: 5px;
+    }
+
+    .techstack-title {
+        font-size: 1.5rem;
+    }
+
+}
+
 @media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
 
     .technology-stack {
-        border-width: 2px;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        align-items: center;
     }
 
     .tech-stack-logos {
@@ -73,6 +90,25 @@
 
     .techstack-title {
         font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .technology-stack {
+        margin-top: 10px;
+        flex-direction: column;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+
+    .tech-stack-logos {
+        gap: 20px;
+    }
+
+    .techstack-title {
+        font-size: 3rem;
     }
 
 }
