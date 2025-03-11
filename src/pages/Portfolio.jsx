@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <section id="projects">
         <div className='container portfolio-body'>
-            <h1 className="section-title portfolio-title">Portfolio</h1>
+            <h1 className="section-title portfolio-title">Projects</h1>
             <div>
                 <PortfolioCarousel />
             </div>
