@@ -69,3 +69,13 @@
     }
 
 }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container.portfolio-body {
+        margin-top: 30px;
+    }
+
+    .section-title.portfolio-title h1 {
+        padding: 10px 0;
+    }
+}
