@@ -49,10 +49,23 @@ function Header() {
 
     console.log("Burger menu is clicked, current state:", !isMenuOpen);
   }
+
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScroll(window.scrollY); 
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   
 
   return (
-    <header>
+    <header className={`${scroll > 100 ? 'scrolled' : undefined}`}>
         <a href="#" className="logo"><img src={personalLogo} alt="Personal Logo" /></a>
         <a href="#" className="header-name">Avril Donovan Gonzales</a>
         <div className="burger-menu" onClick={handleBurgerMenuClick}>
