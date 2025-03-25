@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import FlixifyVideo from '../assets/Portfolio_video.mp4'
 import ToDoVideo from '../assets/Portfolio_video-ToDoApp.mp4'
+import CreativeEducation from '../assets/Portfolio_video_creativeeducation.mp4'
 import './portfolioCarousel.css'
 
 function PortfolioCarousel() {
@@ -51,6 +52,23 @@ function PortfolioCarousel() {
                     <p>Basic To-Do App.</p>
                     <p>TECH STACK: React, JavaScript, CSS Styling</p>
                     <a href="https://github.com/adgonzales18/To-Do-App" className="project-link" ><ion-icon name="link-outline"></ion-icon></a>
+                </div>
+            </div>
+      </Carousel.Item>
+      <Carousel.Item
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}>
+            <div className={`carousel-item-wrapper ${hovered ? 'hovered' : ''}`}>
+              <div>
+                <video autoPlay muted loop className='carousel-video'>
+                <source src={CreativeEducation} type="video/mp4"/>
+                </video>
+              </div>
+                <div className="carousel-caption-wrapper">
+                    <h2>CREATIVE EDUCATION</h2>
+                    <p>Landing Page for a tutorial center.</p>
+                    <p>TECH STACK: React, JavaScript, Tailwind CSS</p>
+                    <a href="https://creativeeducation.netlify.app/" className="project-link" ><ion-icon name="link-outline"></ion-icon></a>
                 </div>
             </div>
       </Carousel.Item>
